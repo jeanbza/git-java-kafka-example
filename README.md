@@ -10,11 +10,12 @@ Kafka producer + consumer example
 
 ## Running the app
 
-1. `zookeeper-server-start.sh zookeeper.properties`
-1. `kafka-server-start.sh server.properties`
+1. Start kafka `bin/kafka.sh restart`
+1. Run the app (TBA)
 
 ## Testing your kafka setup
 
+1. Start kafka `bin/kafka.sh restart`
 1. Send some messages:
     1. `kafka-console-producer.sh --broker-list localhost:2181 --topic test`
     1. Type anything!
