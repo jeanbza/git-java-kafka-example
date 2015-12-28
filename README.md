@@ -17,7 +17,7 @@ Kafka producer + consumer example
 
 1. Start kafka `bin/kafka.sh restart`
 1. Send some messages:
-    1. `kafka-console-producer.sh --broker-list localhost:2181 --topic test`
+    1. `kafka-console-producer.sh --broker-list localhost:2181 --topic test-topic`
     1. Type anything!
 1. Consume some messages:
-    1. `kafka-console-consumer.sh --zookeeper localhost:2181 --topic test --from-beginning`
+    1. `kafka-console-consumer.sh --zookeeper localhost:2181 --topic test-topic --from-beginning`
